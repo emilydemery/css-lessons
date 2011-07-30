@@ -1,1 +1,6 @@
-#content [ border: 1px solid red; ]
+#content {border: 1px solid red;}
+h2 {color: red;}
+p {color: green;}
+a {color: purple;}
+li a {color: black}
+li a:hover {color:blue}
