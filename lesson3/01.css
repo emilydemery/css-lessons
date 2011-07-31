@@ -1,0 +1,7 @@
+div
+{
+	width: 300px;
+	height: 200px;
+	border: 1px solid red;
+	background: #fff333 url(01.jpg) no-repeat center bottom;
+}
