@@ -1,0 +1,74 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: .000;
+	background: #fff;
+	font: 95%/1.4 arial, helvetica, sans-serif;
+}
+
+.header
+{
+	padding: 10px;
+	background: #aaa;
+}
+
+h1 { margin: 0; }
+
+.navigation
+{
+	clear: both;
+	margin: 10px 0;
+	padding: 10px;
+	background: #aaa;
+}
+
+.footer
+{
+	clear: both;
+	margin: 10px 0 0;
+	padding: 10px;
+	background: #aaa;
+}
+
+/* start work here! */
+
+.container
+{
+	width: 600px;
+	margin: 0 auto;
+	padding: 10px;
+	background: #ddd;
+}
+
+.secondary
+{
+	float: left;
+	width: 140px;
+	background: green;
+	margin-right: 20px;
+}
+
+.main
+{
+	float: left;
+	width: 260px;
+	background: red;
+	margin-right: 10px;
+}
+
+.aside
+{
+	float: left;
+	width: 150px;
+	background: blue;
+}
+
+.content
+{
+	clear: both;
+	padding: 10px;
+	background: yellow url(01.gif) repeat-y;
+	overflow: hidden;
+	width: 580px;
+}

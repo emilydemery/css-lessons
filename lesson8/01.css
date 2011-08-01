@@ -1,0 +1,38 @@
+body
+{
+	margin: 1em;
+	padding: 0;
+	color: #000;
+	background: #fff;
+	font: 100%/1.4 arial, helvetica, sans-serif;
+}
+
+#social { border: 1px solid #aaa; 
+	padding: 10px 15px; 
+	background: #eee;
+	width: 180px; 
+}
+#social h3 { color: #555;
+	margin: 0 0 .3em;
+	font-size: 140%; 
+	}
+
+
+#social ul { margin: 0; 
+	padding: 0;
+	list-style-type: none;}
+
+#social li { display: inline;}
+#social a { display: block;
+	padding: 12px 0px 12px 45px;
+	font-weight: bold;
+	color: #555;
+	background: url(icons.gif) no-repeat 0 5px;}
+
+#social a:hover { background-color: #aaa; color: black;}
+#social li.twitter a { background: url(icons.gif) no-repeat 0 -95px; }
+#social li.flickr a { background: url(icons.gif) no-repeat 0 -195px;  }
+#social li.youtube a { background: url(icons.gif) no-repeat 0 -295px;  }
+#social li.twitter a:hover { background-color: #aaa; color: black;}
+#social li.flickr a:hover { background-color: #aaa; color: black;}
+#social li.youtube a:hover { background-color: #aaa; color: black;}

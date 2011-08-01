@@ -1,0 +1,37 @@
+h3
+{
+	width: 690px;
+	margin: 0;
+	padding: 20px;
+	border: 1px solid red;
+	font-size: 580%;
+	line-height: 1;
+}
+
+/* -------------------------
+THE CASCADE
+
+1. gather all rules (browser, user, author)
+2. sort by origin and importance
+3. sort by selector weight
+4. sort by order
+
+------------------------- */
+
+/* weight = 0,0,0,1 */
+h3 { color: XXX; }
+
+/* weight = 0,0,1,0 */
+.intro { color: XXX; }
+
+/* weight = 0,0,1,1 */
+h3.intro { color: XXX; }
+
+/* weight = 0,0,1,1 */
+h3.intro { color: XXX; }
+
+/* weight = 0,0,1,2 */
+body h3.intro { color: XXX; }
+
+/* weight = 0,1,0,0 */
+#intro { color: XXX; }

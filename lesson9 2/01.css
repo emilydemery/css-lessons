@@ -1,0 +1,13 @@
+body
+{
+	margin: 1em;
+	padding: 0;
+	color: #000;
+	background: #fff;
+	font: 100%/1.4 arial, helvetica, sans-serif;
+}
+
+#navigation { border: 1px solid red; }
+#navigation ul { border: 1px solid green; }
+#navigation li { border: 1px solid blue; }
+#navigation a { border: 1px solid lime; }

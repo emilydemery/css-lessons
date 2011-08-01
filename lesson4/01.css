@@ -1,4 +1,13 @@
-#navigation { border: 1px solid red; }
-#navigation ul { border: 1px solid green; }
-#navigation li { border: 1px solid blue; }
-#navigation a { border: 1px solid lime; }
+#navigation { border: 1px solid red;
+	width: 200px; }
+#navigation ul { margin: 0; padding: 0; }
+#navigation li { list-style-type: none; }
+#navigation a { 
+	padding: 5px; 15px;
+	display: block;
+	color: white;
+	background: red;
+	margin-bottom: 1px;
+	text-decoration: none;}
+#navigation a:hover {background: black;}
+
