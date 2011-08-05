@@ -1,0 +1,123 @@
+/* -----------------------------------
+Site:       Site name
+CSS author: Your name
+Updated:	Date here
+Updated by: Date here
+----------------------------------- */
+
+/* -----------------------------------
+simple reset
+----------------------------------- */
+
+html, body, ul, ol, li, form, fieldset, legend
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin-top: 0; }
+fieldset, img { border: 0; }
+legend { color: #000; }
+
+input, textarea, select, button
+{
+	font-size: 110%;
+	line-height: 1.1;
+	font-family: helvetica, arial, sans-serif;
+}
+
+button
+{
+	width: auto;
+	overflow: visible;
+}
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td
+{
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+li { list-style: none; }
+
+abbr, acronym
+{
+	border-bottom: .1em dotted;
+	cursor: help;
+}
+
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+
+pre, code
+{
+	font-family: "Courier New", monospace, serif;
+	font-size: 100%;
+	line-height: 1.2;
+}
+
+/* -----------------------------------
+elements
+----------------------------------- */
+
+body { }
+h1, h2, h3, h4, h5, h6 { }
+h1 { }
+h2 { }
+h3 { }
+h4 { }
+h5 { }
+h6 { }
+p { }
+a:link { }
+a:visited { }
+a:focus { }
+a:hover { }
+a:active { }
+.content ol { }
+.content ul { }
+.content li { }
+.content ul li { }
+
+/* -----------------------------------
+layout
+----------------------------------- */
+
+/* -----------------------------------
+header
+----------------------------------- */
+
+/* -----------------------------------
+search-form
+----------------------------------- */
+
+/* -----------------------------------
+primary-nav
+----------------------------------- */
+
+/* -----------------------------------
+section-nav
+----------------------------------- */
+
+/* -----------------------------------
+footer
+----------------------------------- */
+
+/* -----------------------------------
+box
+----------------------------------- */
+
+/* -----------------------------------
+colors
+----------------------------------- */
+
+/* -----------------------------------
+classes
+----------------------------------- */
