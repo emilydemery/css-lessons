@@ -1,8 +1,8 @@
 /* -----------------------------------
 Site:       The Balloon Shop
-CSS author: EDE
-Updated:	20011-08-05
-Updated by: EDE
+CSS author: Russ Weakley
+Updated:	Date here
+Updated by: Date here
 ----------------------------------- */
 
 /* -----------------------------------
@@ -15,7 +15,6 @@ html, body, ul, ol, li, form, fieldset, legend
 	padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p { margin-top: 0; }
 fieldset, img { border: 0; }
 legend { color: #000; }
 
@@ -67,49 +66,60 @@ pre, code
 elements
 ----------------------------------- */
 
-body 
+body
 {
 	color: #000;
 	background: #fff;
-	font: 90%/1 "Helvetica Neue", Helvetica, Arial, sans-serif, "DejaVu Sans"; 
+	font: 90%/1 "DejaVu Sans", "URW Gothic L", "Helvetica Neue", Helvetica, Arial, "Microsoft Sans Serif", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 
+h1, h2, h3, h4, h5, h6
 {
 	margin: 0 0 .5em;
-	color: #c40000;	 
+	color: #c40000;
 }
 
-h1 { font-size 200%; }
-h2 { font-size 180%; }
-h3 { font-size 160%; }
-h4 { font-size 140%; }
-h5 { font-size 120%; }
-h6 { font-size 110%; }
+h1 { font-size: 200%; }
+h2 { font-size: 180%; }
+h3 { font-size: 160%; }
+h4 { font-size: 140%; }
+h5 { font-size: 120%; }
+h6 { font-size: 100%; }
 
-p 
-{ 
+p
+{
 	margin: 0 0 1.5em;
 	line-height: 1.4;
 }
 
 a:link { color: #0f3163; }
 a:visited { color: #04214b; }
-a:focus { color: #000; outline: thin dotted; }
+
+a:focus
+{
+	color: #000;
+	outline: thin dotted;
+}
+
 a:hover { color: #000; }
 a:active { color: red; }
 
-.content ol {
+.content ol
+{
 	line-height: 1.4;
 	padding: 0 0 1.5em 40px;
 }
-.content ul {
+
+.content ul
+{
 	line-height: 1.4;
-	padding: 0 0 1.5em 20px; 
+	padding: 0 0 1.5em 20px;
 }
+
 .content li { margin: 0 0 .3em; }
-.content ul li 
-{ 
+
+.content ul li
+{
 	padding: 0 0 0 20px;
 	background: url(../images/bullet.gif) no-repeat 0 .3em;
 }
@@ -117,6 +127,15 @@ a:active { color: red; }
 /* -----------------------------------
 layout
 ----------------------------------- */
+
+.container { }
+.header { }
+.primary-nav { }
+.content-container { }
+.section-nav { }
+.content { }
+.sidebar { }
+.footer { }
 
 /* -----------------------------------
 header
@@ -149,3 +168,11 @@ colors
 /* -----------------------------------
 classes
 ----------------------------------- */
+
+.structural
+{
+	position: absolute;
+	left: -500em;
+}
+
+.gutter { margin-left: 20px; }
