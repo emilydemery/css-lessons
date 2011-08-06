@@ -128,14 +128,34 @@ a:active { color: red; }
 layout
 ----------------------------------- */
 
-.container { }
-.header { }
-.primary-nav { }
-.content-container { }
-.section-nav { }
-.content { }
-.sidebar { }
-.footer { }
+.container {
+	width: 980px;
+	margin: 0 auto;
+	background: green; }
+.header {
+	padding: 20px 30px 0;
+	background: red; }
+.primary-nav {
+	background: yellow; }
+.content-container {
+	clear: both;
+	padding: 20px 0 0;
+	background: purple; }
+.section-nav {
+	float: left;
+	width: 200px;
+	background: #eee;
+	 }
+.content { 
+	float: left;
+	width: 540px;
+	background: #aaa;}
+.sidebar { 
+	float: left;
+	width: 200px;
+	background: lime;}
+.footer { 
+	clear: both; }
 
 /* -----------------------------------
 header

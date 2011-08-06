@@ -1,0 +1,14 @@
+.box { 
+	width: 540px;
+	color: #fff;
+	background: black url(../images/corners.gif) no-repeat 0 0;
+	 }
+.inner {
+	padding: 15px;
+	background: red url(../images/corners.gif) no-repeat -540px 100px;
+	 }
+.box2 {
+	width: 510px:
+	padding: 15px;
+	border-radius: 10px;
+	 }
