@@ -134,7 +134,6 @@ layout
 	margin: 0 auto;
 }
 
-.header { padding: 20px 30px 0; }
 .primary-nav { }
 
 .content-container
@@ -166,6 +165,12 @@ layout
 /* -----------------------------------
 header
 ----------------------------------- */
+.header 
+{ 
+	padding: 20px 30px 0;
+	color: #fff;
+	background: #141414; }
+
 
 /* -----------------------------------
 search-form
